@@ -8,21 +8,15 @@ const Header = ({darkMode,clientWidth}) => {
             <div className="hero-section">
                 <div className="hero-content">
                     <div className="top-line">
-                    We Make it Real
+                    WE MAKE IT IMMERSIVE
                     </div>
                     <div className="box">
                         <div className='hero-heading'>
-                            Customized {
-                                clientWidth < 408 ? <br /> : ""
-                            } E-Learning Solutions {
-                                clientWidth < 408 ? "" : <br/>
-                            }
-                            for Your Team.
+                        Virtual Reality  Solutions for Forward-Thinking Teams.
                         </div>
                         <div className='simple-line'>
                             <div>
-                                Supercharge your team's potential with customized e-learning experiences to enhance
-                                skills, boost engagement, and deliver measurable results.
+                            Step into the future of learning with VR-powered training experiences. Engage your teams like never before—boost retention, sharpen real-world skills, and create impact that lasts.
                             </div>
                            <a href="#contact"><button>Speak to an Expert</button></a>
                         </div>

@@ -25,16 +25,10 @@ const WorkWith = () => {
             <div className="ww-container">
                 <div className="ww-left">
                     <div className="ww-box-1">
-                        <div  >Diverse Expertise</div>
-                        <div className='ww-heading'  >Customized Training for Every Industry</div>
-                        <h3  >We specialize in crafting tailored training solutions
-                            that meet the unique needs of diverse
-                            industries. From fintech to healthcare, manufacturing to retail,
-                            our expertise
-                            ensures that every
-                            module is designed to address real world challenges, 
-                            drive engagement, and deliver measurable
-                            results.</h3>
+                        <div  >Built for the Real World</div>
+                        <div className='ww-heading'  >Immersive VR for Every Industry</div>
+                        <h3  >Virtual reality isn’t one-size-fits-all—and neither are your training needs. At The Wise Blend, we develop immersive VR solutions tailored to the unique demands of every industry. Train smarter, faster, and more impactfully with experiences designed to drive real results, no matter your sector.
+                        </h3>
                     </div>
                 </div>
                 <div className="ww-right">

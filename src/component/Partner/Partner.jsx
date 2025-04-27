@@ -6,11 +6,10 @@ const Partner = ({ darkMode }) => {
         <div className="our-partner" style={{ border: !darkMode && "none" }}>
             <div className="our-partner-content">
                 <div className="top">
-                    <div>Our Trusted Clients</div>
-                    <div>Leading the Way in Workplace Learning</div>
+                    <div>OUR TRUSTED PARTNERS</div>
+                    <div>Trusted by Industry Leaders. Chosen for Innovation.</div>
                     <div>
-                        Over 300 satisfied businesses trust us with their training needs. We are committed
-                        to helping teams build stronger skills and drive performance.
+                    Over 300 forward-thinking businesses partner with us to power their workforce training—now with immersive VR capabilities. From global brands to fast-scaling enterprises, we help teams upskill faster, train smarter, and stay ahead of the curve.
                     </div>
                     {/* <div className="logos" style={{background:"red"}}>
                         <div className="logo_items">

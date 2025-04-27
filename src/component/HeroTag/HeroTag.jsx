@@ -14,25 +14,25 @@ const HeroTag = () => {
                     <div className="icon">
                         <FaGamepad />
                     </div>
-                    <div>Gamify complex topics with ease.</div>
+                    <div>Make training immersive.</div>
                 </div>
                 <div  className='box2'>
                     <div className="icon">
                         <MdImportantDevices />
                     </div>
-                    <div>Access training on any device, anytime.</div>
+                    <div>Accessible across headsets & devices.</div>
                 </div>
                 <div  className='box2'>
                     <div className="icon">
                         <TbCalendarMonth />
                     </div>
-                    <div>Launch training in weeks, not months.</div>
+                    <div>Launch fast. Scale instantly.</div>
                 </div>
                 <div  className='box2'>
                     <div className="icon">
                         <SiMuller />
                     </div>
-                    <div>Learn through immersive simulations.</div>
+                    <div>Simulate real-world challenges safely.</div>
                 </div>
                 </div>
             </div>

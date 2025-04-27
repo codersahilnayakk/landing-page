@@ -8,19 +8,19 @@ const Process = () => {
             title: "Discover & Strategize",
             image: "assets/Discover-Strategize.jpg",
             description:
-                "We dive deep to understand your unique needs and craft a tailored learning strategy that aligns with your goals.",
+                "We begin by understanding your industry, learner environment, and core objectives to shape a high-impact VR roadmap.",
         },
         {
-            title: "Design & Craft",
+            title: "Design & Prototype",
             image: "assets/Design-Craft.png",
             description:
-                "Our team brings your vision to life with immersive storyboards, engaging visuals, and innovative content.",
+                "We craft detailed storyboards, build 3D environments, and prototype immersive interactions to ensure each scene feels authentic and purposeful.",
         },
         {
             title: "Develop & Launch",
             image: "assets/Develop-Launch.jpg",
             description:
-                "We transform designs into high-quality, interactive modules and seamlessly deploy them for maximum impact.",
+                "Our team codes, animates, and optimizes the full VR experience for headsets and devices—followed by smooth deployment and support.",
         },
     ];
 
@@ -29,10 +29,10 @@ const Process = () => {
             <div className="our-partner-content">
                 <div className="top">
                     <div>How We Work</div>
-                    <div>We Do Things Differently Here</div>
+                    <div>Your VR Training, From Idea to Impact
+                    </div>
                     <div>
-                    At The Wise Blend, we go beyond just creating content; we create experiences that
-                    transform the way your team learns, works, and grows.
+                    At The Wise Blend, our VR training process is built around one goal: making learning feel real. From discovery to deployment, we design hyper-relevant, interactive experiences that engage users like never before—and deliver lasting results.
                     </div>
                 </div>
             </div>

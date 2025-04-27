@@ -9,8 +9,9 @@ const Contact = () => {
         <div className="textContainer">
           <div className="our-partner-content-7">
             <div className="top-7">
-              <div>Train teams fast, with The Wise Blend!</div>
-              <div>Speak to an Expert Today!</div>
+              <div>Ready to Revolutionize Learning with VR?</div>
+              <div>Talk to a VR Training Expert Today!
+              </div>
             </div>
           </div>
         </div>
@@ -85,7 +86,7 @@ const Contact = () => {
               />
             </div>
             <button type="submit">
-             Submit
+              Submit
             </button>
           </form>
         </div>

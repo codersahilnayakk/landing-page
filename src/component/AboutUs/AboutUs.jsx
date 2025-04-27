@@ -7,14 +7,15 @@ const AboutUs = ({ clientWidth }) => {
             <div className="AboutUs-content">
                 <div className="top-AboutUs">
                     <div>Get To Know Us</div>
-                    <div>Blended to Perfection for Your Workforce</div>
+                    <div>Reimagining Learning for the Modern Workforce</div>
                 </div>
             </div>
             <div className="AboutUs-content">
                 <div className="bottom-AboutUs">
                     <div className="left-AboutUs">
                         <p>
-                            At The Wise Blend, we craft custom {
+                        At The Wise Blend, we design next-gen training solutions that go beyond traditional &nbsp; e-learning. From interactive modules to immersive VR simulations, we blend creativity, technology, and strategy to craft impactful experiences tailored to your business goals. Whether you’re onboarding teams, building leadership, or training for safety and compliance—we create scalable, high-performance programs that transform the way your workforce learns, grows, and excels.
+                            {/* At The Wise Blend, we craft custom {
                                 clientWidth < 408 ? <br /> : ""
                             } E-learning solutions that
                             transform the way businesses
@@ -26,7 +27,7 @@ const AboutUs = ({ clientWidth }) => {
                             looking to upskill your workforce
                             or drive better engagement, we're here to make learning
                             impactful, engaging, and
-                            results-driven.
+                            results-driven. */}
                         </p>
                     </div>
                     <div className="right-AboutUs" style={{

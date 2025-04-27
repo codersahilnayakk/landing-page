@@ -13,7 +13,7 @@ import Process from './Process/Process'
 import AboutUs from './AboutUs/AboutUs'
 
 const AppRouter = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const [clientWidth, setClientWidth] = useState(window.innerWidth);
 
     useEffect(() => {
@@ -39,25 +39,25 @@ const AppRouter = () => {
     <>
     {/* 1 */}
      <section style={{height:"100%",background:darkMode?"#fafafa":""}}>
-      <Navbar setDarkMode={setDarkMode} darkMode={darkMode} />
-      <Header darkMode={darkMode} clientWidth={clientWidth}/>
-     <HeroTag/>
+      <Navbar setDarkMode={setDarkMode} darkMode={darkMode} /> {/* ✅ */}
+      <Header darkMode={darkMode} clientWidth={clientWidth}/> {/* ✅ */}
+     <HeroTag/> {/* ✅ */}
      </section>
      {/* 2 */}
      <section style={{height:"100%",background:darkMode?"#fafafa":"#202020"}}>
-      <Partner darkMode={darkMode}/>
+      <Partner darkMode={darkMode}/> {/* ✅ */}
      </section>
      <section style={{height:"100%"}}>
-      <AboutUs clientWidth={clientWidth}/>
+      <AboutUs clientWidth={clientWidth}/> {/* ✅ */}
      </section>
      {/* 3 */}
-     <section style={{background:darkMode?"#fafafa":"#202020"}}>
+     {/* <section style={{background:darkMode?"#fafafa":"#202020"}}>
       <OverServices/>
-     </section>
+     </section> */}  {/* ✅ */}
      
      {/* 4 */}
-     <section style={{height:"100%"}}>
-      <Why/>
+     <section style={{height:"100%",marginTop:"50px"}}>
+      <Why/> {/* ✅ */}
      </section>
      {/* 5 */}
      <section style={{height:"100%",backgroundColor:darkMode ? "#fafafa":'var(--partner-bg)',paddingBottom:"10px"}}>
@@ -65,20 +65,20 @@ const AppRouter = () => {
      </section>
      {/* 6 */}
      <section style={{height:"100%"}}>
-      <WorkWith/>
+      <WorkWith/> {/* ✅ */}
      </section>
      
      {/* 7 */}
      <section style={{backgroundColor:darkMode ? "#fafafa":'var(--partner-bg)'}}>
-      <Process/>
+      <Process/> {/* ✅ */}
      </section>
      {/* 8 */}
      <section style={{height:"100%"}}>
-      <Wedeliver/>
+      <Wedeliver/> {/* ✅ */}
      </section>
      {/* 9 */}
      <section id='contact' style={{backgroundColor:darkMode ? "#fafafa":'var(--partner-bg)'}}>
-      <Contact/>
+      <Contact/> {/* ✅ */}
      </section>
     
     </>

@@ -29,6 +29,38 @@ export default function TestimonialCarousel() {
        company: "Education Services"
     },
     // Add more testimonials here...
+    {
+      companyImg: "assets/HDFC_Bank.png",
+      text: "At Finolex, we’ve always prioritized partnerships that align with our values of innovation, efficiency, and excellence. The Wise Blend has consistently delivered on all fronts. Their team brings a rare combination of creativity and precision, helping us execute with clarity and confidence. Every engagement has been thoughtfully executed, making them one of the most dependable and forward-thinking partners we’ve worked with.",
+      avatarSrc: "assets/aloka.webp",
+      name: "Sarita Tripathi",
+      title: "CHRO, President Human Resource",
+      company: "Finolex"
+    },
+    {
+      companyImg: "assets/HDFC_Bank.png",
+      text: "The Wise Blend has been instrumental in helping us bring our vision to life. Their attention to detail, collaborative spirit, and commitment to innovation has impressed us time and again. Whether it’s creating impactful experiences or turning abstract ideas into actionable outcomes, they’ve delivered with excellence. We consider them an extension of our own team—dependable, creative, and always a step ahead.",
+      avatarSrc: "assets/aloka.webp",
+      name: "Anil Namugade",
+      title: "Founder, Chief Executive Officer",
+      company: "Trigon Digipack"
+    },
+    {
+      companyImg: "assets/HDFC_Bank.png",
+      text: "Our collaboration with The Wise Blend has been marked by deep understanding and meaningful outcomes. They don’t just deliver solutions—they listen, adapt, and elevate every conversation with thoughtful insights. Their ability to quickly grasp our needs and translate them into impactful outcomes has made them a go-to partner. We’ve seen genuine value in every interaction, and they continue to exceed expectations.",
+      avatarSrc: "assets/aloka.webp",
+      name: "Apoorva Verma",
+      title: "Head of Learning, L&D Specialist",
+      company: "Oxane Partners"
+    },
+    {
+      companyImg: "assets/HDFC_Bank.png",
+      text: "The Wise Blend has been a delight to work with. Their professionalism, creativity, and strategic approach stood out from day one. We appreciated how seamlessly they integrated with our internal teams, turning ideas into impactful outcomes without missing a beat. Their commitment to quality and collaborative spirit made every phase of the journey enjoyable. It’s rare to find partners who are this aligned and proactive.",
+      avatarSrc: "assets/aloka.webp",
+      name: "Neha Bhopatkar",
+      title: "Director, People Team",
+      company: "InfoBeans"
+    }
   ];
 
   return (
